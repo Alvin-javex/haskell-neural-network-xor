@@ -1,6 +1,5 @@
 Markdown
 # Haskell Multilayer Perceptron (MLP) - XOR Solver
-<img width="566" height="275" alt="image" src="https://github.com/user-attachments/assets/d5a452ff-0ab6-4ec2-8291-bbb0350713fa" />
 ![Haskell](https://img.shields.io/badge/Haskell-5D4F85?style=flat-square&logo=haskell&logoColor=white)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
