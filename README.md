@@ -64,7 +64,10 @@ Input 2: 0
 Output: [1]
 
 ## Testing
-The project utilizes Property-Based Testing via the QuickCheck library to ensure mathematical and structural invariants are maintained during execution.
+
+The project utilizes **Property-Based Testing** via the `QuickCheck` library to ensure mathematical and structural invariants are maintained during execution.
+
+```bash
 $ ./projecto --test
 A executar Teste 1: Estrutura pos-treino...
 +++ OK, passed 100 tests.
@@ -72,13 +75,12 @@ A executar Teste 2: Tamanho do Output...
 +++ OK, passed 100 tests.
 A executar Teste 3: MSE de listas iguais...
 +++ OK, passed 100 tests.
-Tested Properties:
+```
 
-Structural Integrity: Verifies that a backpropagation step strictly mutates weight values without accidentally altering the tensor dimensions (number of layers and neurons).
-
-Output Consistency: Ensures the dimension of the resulting prediction array inherently matches the defined number of output neurons.
-MSE Sanity Check: Mathematically validates that the Mean Squared Error of identical prediction and target arrays evaluates exactly to 0.0
-
+**Tested Properties:**
+1. **Structural Integrity:** Verifies that a backpropagation step strictly mutates weight values without accidentally altering the tensor dimensions (number of layers and neurons).
+2. **Output Consistency:** Ensures the dimension of the resulting prediction array inherently matches the defined number of output neurons.
+3. **MSE Sanity Check:** Mathematically validates that the Mean Squared Error of identical prediction and target arrays evaluates exactly to `0.0`.
 ## Project Structure
 
 ```text
