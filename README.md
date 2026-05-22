@@ -49,7 +49,7 @@ To train the network with 100,000 iterations and save the resulting weights to a
 $ ./projecto --train pesos.txt
 
 ## Expected Output:
-
+Plaintext
 Modo treino onn . Guardando em pesos.txt
 A treinar a rede.... old on mate
 Pesos guardados em pesos.txt
@@ -63,7 +63,7 @@ Input 1: 1
 Input 2: 0
 Output: [1]
 
- ## Testing
+## Testing
 The project utilizes Property-Based Testing via the QuickCheck library to ensure mathematical and structural invariants are maintained during execution.
 $ ./projecto --test
 A executar Teste 1: Estrutura pos-treino...
