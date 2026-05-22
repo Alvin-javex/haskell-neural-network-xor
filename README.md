@@ -4,7 +4,8 @@
 ![Build](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
 
-<img width="762" height="292" alt="image" src="https://github.com/user-attachments/assets/7ecfbec5-38b2-41dc-9d78-d76cf419cf3c" />
+<img width="700" height="292" alt="image" src="https://github.com/user-attachments/assets/7ecfbec5-38b2-41dc-9d78-d76cf419cf3c" />
+
 
 A custom-built, feedforward Artificial Neural Network (Multilayer Perceptron) implemented entirely from scratch in pure Haskell. This project demonstrates the application of functional programming paradigms to machine learning concepts, specifically solving the non-linearly separable XOR problem.
 
@@ -17,7 +18,6 @@ A custom-built, feedforward Artificial Neural Network (Multilayer Perceptron) im
   - [Prediction](#prediction)
 - [Testing](#testing)
 - [Project Structure](#project-structure)
-- [License](#license)
 
 ## Overview
 
