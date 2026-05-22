@@ -96,4 +96,4 @@ A executar Teste 3: MSE de listas iguais...
 └── Maths.hs     # Pure mathematical functions (activation functions, MSE)
 ```
 * **Alvinho Rodrigues** - *Lead Developer* - [@Alvin-javex](https://github.com/Alvin-javex)
-* **Diogo Lopes** - *Co-Developer / Collaborator* - [@Shibidi-toilet](https://github.com/Shibidi-toilet)
+* **Diogo Lopes** - *Lead Developer* - [@Shibidi-toilet](https://github.com/Shibidi-toilet)
