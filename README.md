@@ -48,7 +48,7 @@ To train the network with 100,000 iterations and save the resulting weights to a
 ```bash
 $ ./projecto --train pesos.txt
 
-Expected Output:
+## Expected Output:
 
 Modo treino onn . Guardando em pesos.txt
 A treinar a rede.... old on mate
@@ -56,14 +56,14 @@ Pesos guardados em pesos.txt
 [([0.00073], [0.00000]), ([0.99916], [1.00000]), ([0.99900], [1.00000]), ([0.00097], [0.00000])]
 MSE: 7.945019742132149e-7
 
-Prediction
+## Prediction
 To load a previously trained model and predict the output for user-provided inputs:
 $ ./projecto --predict pesos.txt
 Input 1: 1
 Input 2: 0
 Output: [1]
 
-Testing
+ ## Testing
 The project utilizes Property-Based Testing via the QuickCheck library to ensure mathematical and structural invariants are maintained during execution.
 $ ./projecto --test
 A executar Teste 1: Estrutura pos-treino...
@@ -79,7 +79,7 @@ Structural Integrity: Verifies that a backpropagation step strictly mutates weig
 Output Consistency: Ensures the dimension of the resulting prediction array inherently matches the defined number of output neurons.
 MSE Sanity Check: Mathematically validates that the Mean Squared Error of identical prediction and target arrays evaluates exactly to 0.0
 
-Project Structure
+## Project Structure
 ├── Main.hs      # CLI entry point, I/O handling, and QuickCheck properties
 ├── Types.hs     # Core data types (Network, Layer) with standard derivations
 ├── Net.hs       # Neural network engine (forward pass, backpropagation, training loop)
