@@ -48,3 +48,10 @@ To train the network with 100,000 iterations and save the resulting weights to a
 
 ```bash
 $ ./projecto --train pesos.txt
+
+Project Structure
+Plaintext
+├── Main.hs      # CLI entry point, I/O handling, and QuickCheck properties
+├── Types.hs     # Core data types (Network, Layer) with standard derivations
+├── Net.hs       # Neural network engine (forward pass, backpropagation, training loop)
+└── Maths.hs     # Pure mathematical functions (activation functions, MSE)
