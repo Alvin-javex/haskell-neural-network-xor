@@ -49,18 +49,26 @@ To train the network with 100,000 iterations and save the resulting weights to a
 ```bash
 $ ./projecto --train pesos.txt
 
-# Expected Output:
+## Expected Output:
 Modo treino onn . Guardando em pesos.txt
 A treinar a rede.... old on mate
 Pesos guardados em pesos.txt
-[([0.00073], [0.00000]), ([0.99916], [1.00000]), ([0.99900], [1.00000]), ([0.00097], [0.00000])] ->Example
-MSE: 7.945019742132149e-7 -> Example
+[([0.00073], [0.00000]), ([0.99916], [1.00000]), ([0.99900], [1.00000]), ([0.00097], [0.00000])] 
+MSE: 7.945019742132149e-7 
 
-#Prediction
+##Testing
+The project utilizes Property-Based Testing via the QuickCheck library to ensure mathematical and structural invariants are maintained during execution.
+
+$ ./projecto --test
+A executar Teste 1: Estrutura pos-treino...
++++ OK, passed 100 tests.
+A executar Teste 2: Tamanho do Output...
++++ OK, passed 100 tests.
+A executar Teste 3: MSE de listas iguais...
++++ OK, passed 100 tests.
 
 
-
-Project Structure
+##Project Structure
 Plaintext
 ├── Main.hs      # CLI entry point, I/O handling, and QuickCheck properties
 ├── Types.hs     # Core data types (Network, Layer) with standard derivations
