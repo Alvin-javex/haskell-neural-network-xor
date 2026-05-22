@@ -45,7 +45,7 @@ Compile the project or run it directly using GHCi. The Command Line Interface (C
 
 To train the network with 100,000 iterations and save the resulting weights to a file (e.g., `pesos.txt`):
 
-```bash
+
 $ ./projecto --train pesos.txt
 
 ## Expected Output:
