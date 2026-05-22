@@ -49,6 +49,17 @@ To train the network with 100,000 iterations and save the resulting weights to a
 ```bash
 $ ./projecto --train pesos.txt
 
+# Expected Output:
+Modo treino onn . Guardando em pesos.txt
+A treinar a rede.... old on mate
+Pesos guardados em pesos.txt
+[([0.00073], [0.00000]), ([0.99916], [1.00000]), ([0.99900], [1.00000]), ([0.00097], [0.00000])] ->Example
+MSE: 7.945019742132149e-7 -> Example
+
+#Prediction
+
+
+
 Project Structure
 Plaintext
 ├── Main.hs      # CLI entry point, I/O handling, and QuickCheck properties
