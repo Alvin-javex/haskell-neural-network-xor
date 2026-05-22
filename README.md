@@ -95,3 +95,5 @@ A executar Teste 3: MSE de listas iguais...
 ├── Net.hs       # Neural network engine (forward pass, backpropagation, training loop)
 └── Maths.hs     # Pure mathematical functions (activation functions, MSE)
 ```
+* **Alvinho Rodrigues** - *Lead Developer* - [@Alvin-javex](https://github.com/Alvin-javex)
+* **Diogo Lopes** - *Co-Developer / Collaborator* - [@Shibidi-toilet](https://github.com/Shibidi-toilet)
