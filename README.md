@@ -80,7 +80,10 @@ Output Consistency: Ensures the dimension of the resulting prediction array inhe
 MSE Sanity Check: Mathematically validates that the Mean Squared Error of identical prediction and target arrays evaluates exactly to 0.0
 
 ## Project Structure
+
+```text
 ├── Main.hs      # CLI entry point, I/O handling, and QuickCheck properties
 ├── Types.hs     # Core data types (Network, Layer) with standard derivations
 ├── Net.hs       # Neural network engine (forward pass, backpropagation, training loop)
 └── Maths.hs     # Pure mathematical functions (activation functions, MSE)
+```
