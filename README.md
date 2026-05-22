@@ -4,6 +4,8 @@
 ![Build](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
 
+<img width="762" height="292" alt="image" src="https://github.com/user-attachments/assets/7ecfbec5-38b2-41dc-9d78-d76cf419cf3c" />
+
 A custom-built, feedforward Artificial Neural Network (Multilayer Perceptron) implemented entirely from scratch in pure Haskell. This project demonstrates the application of functional programming paradigms to machine learning concepts, specifically solving the non-linearly separable XOR problem.
 
 ## Table of Contents
@@ -48,21 +50,25 @@ To train the network with 100,000 iterations and save the resulting weights to a
 
 $ ./projecto --train pesos.txt
 
-## Expected Output:
-Plaintext
+**Expected Output:**
+```text
 Modo treino onn . Guardando em pesos.txt
 A treinar a rede.... old on mate
 Pesos guardados em pesos.txt
 [([0.00073], [0.00000]), ([0.99916], [1.00000]), ([0.99900], [1.00000]), ([0.00097], [0.00000])]
 MSE: 7.945019742132149e-7
+```
 
-## Prediction
+### Prediction
+
 To load a previously trained model and predict the output for user-provided inputs:
+
+```bash
 $ ./projecto --predict pesos.txt
 Input 1: 1
 Input 2: 0
 Output: [1]
-
+```
 ## Testing
 
 The project utilizes **Property-Based Testing** via the `QuickCheck` library to ensure mathematical and structural invariants are maintained during execution.
